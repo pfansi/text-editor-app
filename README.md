@@ -5,7 +5,7 @@
 ## Table of Contents:
 
 - [Git-Repository](#git-repository)
-- [Demo-Video](#walktrough-video)
+- [Heroku-deployment](#application-deployment)
 - [Description](#description)
 - [API-end-points](API-end-points)
 - [Installation](#installation)
@@ -17,11 +17,11 @@
 
 ## Git Repository
 
-I created a git repository folder that will host the finished project. The Repository will be found [here](https://github.com/pfansi/text-editor-app)
+I created a git repository folder that will host the finished project. The Repository will be found [here](https://github.com/pfansi/text-editor-app).
 
-## Application Deployed
+## Application Deployment
 
-The full-stack application has been delpoyed to Heroku. Please click on the following link to view the application. [click here]()
+The full-stack application has been delpoyed to Heroku. Please click on the following link to view the application. [click here]().
 
 ## Description:
 
