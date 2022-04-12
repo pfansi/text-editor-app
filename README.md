@@ -21,7 +21,7 @@ I created a git repository folder that will host the finished project. The Repos
 
 ## Application Deployment
 
-The full-stack application has been delpoyed to Heroku. Please click on the following link to view the application. [click here](https://text-editor-pwa-app.herokuapp.com/).
+The full-stack application has been deployed to Heroku. Please click on the following link to view the application. [click here](https://text-editor-pwa-app.herokuapp.com/).
 
 ## Description:
 
