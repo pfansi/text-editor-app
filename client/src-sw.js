@@ -29,21 +29,21 @@ registerRoute(({ request }) => request.mode === "navigate", pageCache);
 // TODO: Implement asset caching
 // registerRoute();
 
-const matchCallback = ({ request }) => {
-  console.log(request);
-  return (
-    // CSS
-    request.destination === "style" ||
-    // JavaScript
-    request.destination === "script" ||
-    request.destination === "worker" ||
-    request.destination === "image"
-  );
-};
+// const matchCallback = ({ request }) => {
+//   console.log(request);
+//   return (
+//     // CSS
+//     request.destination === "style" ||
+//     // JavaScript
+//     request.destination === "script" ||
+//     request.destination === "worker" ||
+//     request.destination === "image"
+//   );
+// };
 
 registerRoute(
-  //Register route for caching images, the style, the script, and worker
-  matchCallback,
+  ({ request }) =>
+    ["style", "script", "worker", "image"].includes(request.destination),
   new StaleWhileRevalidate({
     cacheName: "asset-cache",
     plugins: [
